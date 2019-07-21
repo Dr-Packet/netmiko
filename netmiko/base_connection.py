@@ -1210,7 +1210,7 @@ class BaseConnection(object):
     def send_command(
         self,
         command_string,
-        expect_string=None,
+        expect_string=#,
         delay_factor=1,
         max_loops=500,
         auto_find_prompt=True,
